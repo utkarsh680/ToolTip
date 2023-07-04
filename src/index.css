@@ -79,3 +79,24 @@ span{
     font-weight: 500;
     color: rgb(49, 68, 106);    
 }
+
+/* arrow image */
+img{
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+.image1 img{
+  rotate: 270deg;
+}
+
+.image3 img{
+  rotate: 90deg;
+}
+
+.image4 img{
+  rotate: 180deg;
+}

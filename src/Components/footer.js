@@ -1,7 +1,7 @@
 
 const Footer = () => {
 
-    return(
+    return (
         <div className="footer">@Developed by Utkarsh</div>
     )
 }

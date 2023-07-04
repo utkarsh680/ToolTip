@@ -4,12 +4,17 @@ import 'rc-tooltip/assets/bootstrap.css';
 const Top = () => {
     var renderTooltip = <span>Hello world!</span>
     return (
-        <Tooltip 
-        placement="top"
-        overlay={renderTooltip}
-        >
-        <span>Top</span>
-        </Tooltip>
+        <div>
+            <Tooltip
+                placement="top"
+                overlay={renderTooltip}
+            >
+                <span>Top</span>
+            </Tooltip>
+            <div className="image1">
+                <img src="	https://cdn-icons-png.flaticon.com/512/2267/2267911.png" alt='top' />
+            </div>
+        </div>
     )
 }
 
