@@ -4,6 +4,7 @@ import Bottom from "./Components/bottom";
 import Top from "./Components/top";
 import Right from "./Components/right";
 import Left from "./Components/left";
+import Select from "./Components/select";
 
 const App = () => {
 
@@ -60,6 +61,7 @@ const App = () => {
      <Top />
      <Right />
      <Left />
+     <Select />
     </div>
     </div>
   );
