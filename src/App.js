@@ -5,6 +5,7 @@ import Top from "./Components/top";
 import Right from "./Components/right";
 import Left from "./Components/left";
 import Select from "./Components/select";
+import Footer from "./Components/footer";
 
 const App = () => {
 
@@ -63,6 +64,7 @@ const App = () => {
       : tooltip === "LEFT" ? <Left />
       : <Select />} 
     </div>
+    <Footer />
     </div>
   );
 }
