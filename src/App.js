@@ -57,11 +57,11 @@ const App = () => {
       </div>
     </div>
     <div className="App">
-     <Bottom />
-     <Top />
-     <Right />
-     <Left />
-     <Select />
+      {tooltip === "TOP" ? <Top />
+      : tooltip === "RIGHT" ? <Right />
+      : tooltip === "BOTTOM" ? <Bottom />
+      : tooltip === "LEFT" ? <Left />
+      : <Select />} 
     </div>
     </div>
   );
