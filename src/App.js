@@ -9,7 +9,7 @@ import Footer from "./Components/footer";
 
 const App = () => {
 
-  const [tooltip, setTooltip] = useState("Select optipn");
+  const [tooltip, setTooltip] = useState("Select option");
   return (
     <div>
       <div className="radio-button">

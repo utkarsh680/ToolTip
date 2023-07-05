@@ -2,7 +2,7 @@ import Tooltip from 'rc-tooltip';
 import 'rc-tooltip/assets/bootstrap.css';
 
 const Right = () => {
-    var renderTooltip = <span>Hello world!</span>
+    var renderTooltip = <span className='hello'>Hello world!</span>
     return (
         <div>
             <Tooltip

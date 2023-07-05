@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(20, 20, 20);
+  background-color: #201E20;
 }
 
 code {
@@ -30,18 +30,18 @@ code {
   align-items: center;
   height: 200px;
   margin:10px;
-  border: 2px solid gray;
-  background-color: rgba(143, 134, 13, 0.664);
+  border: 2px solid  rgb(131, 129, 129);
+  background-color: #E0A96D;
 }
 
 .radio-button-title{
-  color: rgb(211, 210, 210);
+  color: #201E20;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 input{
-  box-shadow: 0px 0px 0px 1px #2fd40e;
+  box-shadow: 0px 0px 0px 1px #201E20;
   font-size: 2rem;
   width: 18px;
   height: 18px;
@@ -55,7 +55,7 @@ input{
 
 input:checked {
   background-color: #25a10d;
-  box-shadow: 0px 0px 0px 4px #6d6d6d;
+  box-shadow: 0px 0px 0px 3px #201E20;
 }
 
 .hover{
@@ -64,9 +64,19 @@ input:checked {
 
 span{
   color: rgb(219, 218, 218);
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
+.hello{
+  color: rgb(219, 218, 218);
+  font-size: 1rem;
+ 
+}
+
+.world{
+  color: rgb(219, 218, 218);
+  font-size: 1rem;
+}
 .footer{
   position: absolute;
     bottom: 0;
