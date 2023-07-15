@@ -5,7 +5,7 @@ In React, a tooltip is a common user interface element used to provide additiona
 Implementing tooltips in React typically involves using a combination of HTML, CSS, and JavaScript. There are multiple ways to create tooltips in React, including using existing libraries or building custom tooltips from scratch. I'll explain a basic approach to creating tooltips in React using CSS and event handling.
 
 click here ->
-https://frolicking-lollipop-404fe2.netlify.app/
+https://tooltip-web.netlify.app/
 
 ![tooltip1](https://github.com/utkarsh680/ToolTip/assets/102253404/d752a6a8-51ce-4763-a5d2-62da06ad7702)
 
